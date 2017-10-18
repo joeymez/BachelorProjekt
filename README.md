@@ -37,6 +37,6 @@ Klassisch besteht die **Gliederung der Bachelorarbeit** aus drei Hauptteilen, de
 
 ## LaTeX Informationen
 
-** WikiBooks **
+**WikiBooks**
 > - LaTeX-Kompedium: Schnellkurs [link](https://de.wikibooks.org/wiki/LaTeX-Kompendium:_Schnellkurs)
 > - LaTeX-Kompedium: Wörterbuch [link](https://de.wikibooks.org/wiki/LaTeX-Kompendium:_W%C3%B6rterbuch)
