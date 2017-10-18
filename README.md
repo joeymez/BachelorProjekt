@@ -1,4 +1,4 @@
-# Projekt_Bachelor
+# Bachelorarbeit
 
 ## Neuigkeiten
 >
