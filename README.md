@@ -2,7 +2,7 @@
 
 ## Neuigkeiten
 >
->  Willkommen auf dem Repository des Bachelor Projekts "Einbindung der agiler Vorgehensmodelle in die Großkonzerne"
+>  Willkommen auf dem Repository des Bachelor-Projekts "Einbindung der agiler Vorgehensmodelle in die Großkonzerne"
 >
 >
 ***
