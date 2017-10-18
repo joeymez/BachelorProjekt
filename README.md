@@ -1,15 +1,15 @@
-# Bachelorarbeit
+# Wirtschaftsinformatik (B.Sc.)
 
 ## Neuigkeiten
 >
->  Willkommen auf dem Repository des Bachelor-Projekts "Einbindung der agiler Vorgehensmodelle in die Großkonzerne"
+>  Willkommen auf dem Repository des Bachelor-Projekts "Einbindung agiler Vorgehensmodelle in die Großkonzerne"
 >
 >
 ***
 
 ## Allgemeines
 
-**Thema:**	Agiles Vorgehen in Konzernen
+**Thema:**	Einbindung agiler Vorgehensmodelle in die Großkonzerne
 
 **Aufbau:**	Geplant ca. 50 Seiten
 
