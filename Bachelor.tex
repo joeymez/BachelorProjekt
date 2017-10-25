@@ -1,0 +1,81 @@
+\documentclass[12pt]{scrreprt}
+
+%------------------------------------------------------
+% LaTeX packages
+%------------------------------------------------------
+\usepackage[ngerman]{babel}
+\usepackage{pdfpages}
+\usepackage{geometry} 
+\usepackage{url}
+\usepackage{cite}
+\usepackage[ngerman]{babel}          % Umlaute 
+\usepackage[utf8]{inputenc}          % Eingabe Umlaute 
+\usepackage{lmodern} 				 % neue deutsche Trennungsregeln, etc 
+\usepackage{mathptmx} 				 % Schriftwart (Times New Roman)
+\usepackage[T1]{fontenc}
+\usepackage{etoolbox}
+\usepackage[ngerman]{translator}
+\usepackage[
+nonumberlist, %keine Seitenzahlen anzeigen
+acronym,      %ein Abkürzungsverzeichnis erstellen
+toc,          %Einträge im Inhaltsverzeichnis
+section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+{glossaries}
+
+
+%--------------------------------------------------------------------------- 
+% Überschriften 
+%--------------------------------------------------------------------------- 
+\setkomafont{disposition}{\sffamily} % Benutzt eine Schrift für alle Gliederungsebenen 
+ 
+\addtokomafont{chapter}{\LARGE} % Formatierung Ebene 1 (https://www.latex-kurs.de/fragen/schriftgroesse.html)
+\addtokomafont{section}{\Large} % Formatierung Ebene 2
+\addtokomafont{subsection}{\large} % Formatierung Ebene 3
+
+
+%------------------------------------------------------
+% Settings
+%------------------------------------------------------
+\geometry{a4paper, left=30mm, right=25mm}
+
+
+%------------------------------------------------------
+% START OF DOCUMENT
+%------------------------------------------------------
+\begin{document}
+
+
+%------------------------------------------------------
+% Deckblatt
+%------------------------------------------------------
+\includepdf[pages={1}]{Deckblatt-BA.pdf}
+
+
+%------------------------------------------------------
+% Inhaltsverzeichniss
+%------------------------------------------------------
+\tableofcontents
+\listoffigures
+\listoftables
+
+
+%------------------------------------------------------
+% Dokument Anfang
+%------------------------------------------------------
+\input{Text/Einleitung}
+\input{Text/Hauptteil}
+\input{Text/Resümee}
+
+%------------------------------------------------------
+% Literatur
+%------------------------------------------------------
+\apptocmd{\thebibliography}{\csname phantomsection\endcsname\addcontentsline{toc}{chapter}{\bibname}}{}{}
+\bibliography{literatur}{}
+\bibliographystyle{plain}
+
+
+%------------------------------------------------------
+% END OF DOCUMENT
+%------------------------------------------------------
+\end{document}
+
