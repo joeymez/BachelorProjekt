@@ -1,0 +1,140 @@
+\documentclass[12pt]{scrreprt}
+
+%------------------------------------------------------
+% LaTeX packages
+%------------------------------------------------------
+\usepackage[ngerman]{babel}
+\usepackage{pdfpages}
+\usepackage{geometry} 
+\usepackage{url}
+\usepackage{cite}
+\usepackage{ae}
+\usepackage[ngerman]{babel}          % Umlaute  
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} 							% neue deutsche Trennungsregeln, etc 
+\usepackage{mathptmx} 							% Schriftart (Times New Roman)
+\usepackage{acronym}
+\usepackage[onehalfspacing]{setspace}	% Eineinhalb Zeilen Abstand
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{minitoc}
+\usepackage{scrpage2}
+
+%------------------------------------------------------
+% Glossaries
+%------------------------------------------------------
+\usepackage[nonumberlist, %keine Seitenzahlen anzeigen
+acronym,      %ein Abkürzungsverzeichnis erstellen
+toc,          %Einträge im Inhaltsverzeichnis
+section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
+{glossaries} % Glossar
+
+%------------------------------------------------------
+% Seitenzahlformatierung (rechts)
+%------------------------------------------------------
+\pagestyle{scrheadings} 
+\cfoot[]{}% [plain-Seiten]{normale Seiten} 
+\ofoot[\pagemark]{\pagemark} 
+
+%--------------------------------------------------------------------------- 
+% Überschriften 
+%--------------------------------------------------------------------------- 
+\titleformat{name=\chapter,numberless}[display]{\normalfont\huge\bfseries}{\titlerule}{-7ex}{}[\vspace{5ex}]
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{20pt}{\Huge}
+\titlespacing{\chapter}{0em}{-1.0em}{0em} % {left}{before}{after}[right]
+\titleformat{\section}{\normalfont\LARGE\bfseries}{\thesection}{16pt}{\LARGE}
+\titleformat{\subsection}{\normalfont\Large\bfseries}{\thesubsection}{14pt}{\Large}
+\titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesubsubsection}{14pt}{\large}
+
+%------------------------------------------------------
+% Space after Minitoc
+%------------------------------------------------------
+\mtcsetfeature{minitoc}{close}{\vspace{.5cm}}
+
+%------------------------------------------------------
+% Settings
+%------------------------------------------------------
+\geometry{a4paper, left=30mm, right=25mm}
+\input{glossar/Glossar}
+
+%------------------------------------------------------
+% START OF DOCUMENT
+%------------------------------------------------------
+\begin{document}
+
+%------------------------------------------------------
+% Minitoc settings
+%------------------------------------------------------	
+\dominitoc
+\mtcsettitle{minitoc}{}
+
+%------------------------------------------------------
+% Deckblatt & Einverständnisserklärung
+%------------------------------------------------------
+\includepdf[pages={1}]{Deckblatt-BA.pdf}
+\includepdf[]{Erstellungserklaerung-Abschlussarbeit.pdf}
+
+%------------------------------------------------------
+% Römische Ziffern
+%------------------------------------------------------
+\pagenumbering{Roman}
+
+%------------------------------------------------------
+% Danksagung
+%------------------------------------------------------
+\input{Text/Danksagung}
+
+%------------------------------------------------------
+% Kurzfassung
+%------------------------------------------------------
+\input{Text/Kurzfassung}
+
+%------------------------------------------------------
+% Inhaltsverzeichnis
+%------------------------------------------------------
+\tableofcontents
+\pagenumbering{arabic}
+\newpage
+
+%------------------------------------------------------
+% Acronyme
+%------------------------------------------------------
+\input{acronyme/Acronym}
+
+%------------------------------------------------------
+% Dokument Anfang
+%------------------------------------------------------
+\input{Text/Einleitung}
+\input{Text/Hauptteil_I}
+\input{Text/Hauptteil_II}
+\input{Text/Resümee}
+
+%------------------------------------------------------
+% Glossar
+%------------------------------------------------------
+\addtocontents{toc}{\vspace{\baselineskip}}
+\addcontentsline{toc}{section}{\textbf{Glossar}}
+\newpage
+%------------------------------------------------------
+% Römische Ziffern
+%------------------------------------------------------
+\pagenumbering{Roman}
+\setcounter{page}{3}
+
+\renewcommand{\glossarysection}[2][]{\chapter*{#1}}
+\printglossary[style=altlist,title=Glossar]
+
+%------------------------------------------------------
+% Literatur
+%------------------------------------------------------
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+
+\bibliography{literatur}{}
+\bibliographystyle{plain}
+
+%------------------------------------------------------
+% END OF DOCUMENT
+%------------------------------------------------------
+\end{document}
+

@@ -1,0 +1,29 @@
+\select@language {ngerman}
+\contentsline {section}{\textbf {Abk\"urzungsverzeichnis}}{3}{chapter*.1}
+\contentsline {chapter}{\numberline {1}Einleitung}{4}{chapter.1}
+\contentsline {section}{\numberline {1.1}Motivation}{4}{section.1.1}
+\contentsline {section}{\numberline {1.2}Problemstellung}{4}{section.1.2}
+\contentsline {section}{\numberline {1.3}Thesis - Agile PM-Ans\"atze in Konzernen}{4}{section.1.3}
+\contentsline {chapter}{\numberline {2}Teil I: IT-Projektmanagement in der Theorie}{5}{chapter.2}
+\contentsline {section}{\numberline {2.1}Projektmanagement}{5}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Projektbegriff}{5}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Aufgaben des Projektmanagements}{5}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Projektmanagementmethoden}{5}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Projektmanagement in der Industrie}{6}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Status Quo - Gegenw\"artige Situation}{6}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Problematik}{6}{subsection.2.2.2}
+\contentsline {subsection}{\numberline {2.2.3}L\"osungsansatz}{6}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Teil II: IT-Projektmanagement in der Praxis}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Einbettung agiler PM-Ans\"\"atze im Konzern}{7}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}MAN Truck \& Bus AG}{7}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}IT-Projekte bei der MAN}{7}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Agiler Ansatz bei der MAN}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Agile Methoden}{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Werkzeuge}{8}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Umsetzung}{8}{subsection.3.2.3}
+\contentsline {chapter}{\numberline {4}Res{\"u}mee}{9}{chapter.4}
+\contentsline {section}{\numberline {4.1}Interpretation}{9}{section.4.1}
+\contentsline {section}{\numberline {4.2}M{\"o}gliche Forschungsl{\"u}cken (offene Fragen)}{9}{section.4.2}
+\vspace {\baselineskip }
+\contentsline {section}{\textbf {Glossar}}{9}{section.4.2}
+\contentsline {section}{Literaturverzeichnis}{III}{chapter*.2}
