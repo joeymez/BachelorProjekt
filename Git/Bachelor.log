@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.24)  2 NOV 2017 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  3 NOV 2017 14:32
 entering extended mode
 **./Bachelor.tex
 (Bachelor.tex
@@ -995,7 +995,7 @@ Package minitoc Info: I0024
 (minitoc)             PREPARING MINITOCS FROM Bachelor.toc on input line 70.
 
 {\reset@font\mtcSfont\mtc@string\contentsline{section}{\noexpand \leavevmode \t
-extbf {Abk\"urzungsverzeichnis}}{\reset@font\mtcSfont 3}{chapter*.1}}
+extbf {Abk\"urzungsverzeichnis}}{\reset@font\mtcSfont 2}{chapter*.1}}
 Package minitoc Info: I0033
 (minitoc)             Writing Bachelor.mtc1.
 \openout4 = `Bachelor.mtc1'.
@@ -1207,14 +1207,14 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ! You can't use a prefix with `end-group character }'.
 <to be read again> 
                    \egroup 
-l.17 ...PM-Ans\"\"atze im Konzern}{7}{section.3.1}
+l.17 ...PM-Ans\"\"atze im Konzern}{6}{section.3.1}
                                                   
 I'll pretend you didn't say \long or \outer or \global or \protected.
 
 ! Extra }, or forgotten \endgroup.
 <argument> ...ng agiler PM-Ans\"\"atze im Konzern}
                                                   \hyper@linkend \nobreak {\...
-l.17 ...PM-Ans\"\"atze im Konzern}{7}{section.3.1}
+l.17 ...PM-Ans\"\"atze im Konzern}{6}{section.3.1}
                                                   
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1398,14 +1398,14 @@ Package babel Info: Redefining ngerman shorthand "~
 ! You can't use a prefix with `end-group character }'.
 <to be read again> 
                    \egroup 
-l.1 ...nzern}{\reset@font\mtcSfont 7}{section.3.1}
+l.1 ...nzern}{\reset@font\mtcSfont 6}{section.3.1}
                                                   }
 I'll pretend you didn't say \long or \outer or \global or \protected.
 
 ! Extra }, or forgotten \endgroup.
 <argument> ...ng agiler PM-Ans\"\"atze im Konzern}
                                                   \hyper@linkend \nobreak {\...
-l.1 ...nzern}{\reset@font\mtcSfont 7}{section.3.1}
+l.1 ...nzern}{\reset@font\mtcSfont 6}{section.3.1}
                                                   }
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -1519,11 +1519,11 @@ Package babel Info: Redefining ngerman shorthand "~
  [3
 
 ]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 4.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
+LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
+               before end of `thebibliography' environment on input line 3.
+
+)
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the Bachelor.maf file.
@@ -1556,21 +1556,20 @@ Package rerunfilecheck Info: File `Bachelor.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 139.
  ) 
 Here is how much of TeX's memory you used:
- 19388 strings out of 493323
- 317995 string characters out of 3139065
+ 19330 strings out of 493323
+ 317129 string characters out of 3139050
  576086 words of memory out of 3000000
- 22275 multiletter control sequences out of 15000+200000
- 56970 words of font info for 75 fonts, out of 3000000 for 9000
+ 22226 multiletter control sequences out of 15000+200000
+ 56652 words of font info for 74 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,66p,8821b,566s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmtt1
-2.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program
- Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
-Output written on Bachelor.pdf (15 pages, 550296 bytes).
+public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb>
+Output written on Bachelor.pdf (15 pages, 525505 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
+ 300 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  257 words of extra memory for PDF output out of 10000 (max. 10000000)
 
