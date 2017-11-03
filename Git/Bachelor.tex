@@ -69,26 +69,33 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \dominitoc
 \mtcsettitle{minitoc}{}
 
+
 %------------------------------------------------------
 % Deckblatt & Einverständnisserklärung
 %------------------------------------------------------
 \includepdf[pages={1}]{Deckblatt-BA.pdf}
 \includepdf[]{Erstellungserklaerung-Abschlussarbeit.pdf}
 
+
 %------------------------------------------------------
 % Römische Ziffern
 %------------------------------------------------------
 \pagenumbering{Roman}
 
+
 %------------------------------------------------------
 % Danksagung
 %------------------------------------------------------
+\addcontentsline{toc}{chapter}{\textbf{Danksagung}}
 \input{Text/Danksagung}
+
 
 %------------------------------------------------------
 % Kurzfassung
 %------------------------------------------------------
+\addcontentsline{toc}{chapter}{\textbf{Zusammenfassung}}
 \input{Text/Kurzfassung}
+
 
 %------------------------------------------------------
 % Inhaltsverzeichnis
@@ -97,10 +104,6 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \pagenumbering{arabic}
 \newpage
 
-%------------------------------------------------------
-% Acronyme
-%------------------------------------------------------
-\input{acronyme/Acronym}
 
 %------------------------------------------------------
 % Dokument Anfang
@@ -109,27 +112,37 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \input{Text/Hauptteil_I}
 \input{Text/Hauptteil_II}
 \input{Text/Resümee}
+\newpage
+
+
+%------------------------------------------------------
+% Römische Ziffern
+%------------------------------------------------------
+\pagenumbering{Roman}
+\setcounter{page}{4}
+\newpage
+
+
+%------------------------------------------------------
+% Acronyme
+%------------------------------------------------------
+\addcontentsline{toc}{chapter}{\textbf{Abkürzungsverzeichnis}}
+\input{acronyme/Acronym}
+
 
 %------------------------------------------------------
 % Glossar
 %------------------------------------------------------
 \addtocontents{toc}{\vspace{\baselineskip}}
-\addcontentsline{toc}{section}{\textbf{Glossar}}
-\newpage
-%------------------------------------------------------
-% Römische Ziffern
-%------------------------------------------------------
-\pagenumbering{Roman}
-\setcounter{page}{3}
-
+\addcontentsline{toc}{chapter}{\textbf{Glossar}}
 \renewcommand{\glossarysection}[2][]{\chapter*{#1}}
 \printglossary[style=altlist,title=Glossar]
+
 
 %------------------------------------------------------
 % Literatur
 %------------------------------------------------------
-\addcontentsline{toc}{section}{Literaturverzeichnis}
-
+\addcontentsline{toc}{chapter}{Literaturverzeichnis}
 \bibliography{literatur}{}
 \bibliographystyle{plain}
 
