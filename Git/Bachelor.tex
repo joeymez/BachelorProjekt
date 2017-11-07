@@ -78,29 +78,18 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 
 
 %------------------------------------------------------
-% Römische Ziffern
+% Danksagung & Kurzfassung
 %------------------------------------------------------
 \pagenumbering{Roman}
-
-
-%------------------------------------------------------
-% Danksagung
-%------------------------------------------------------
 \input{Text/Danksagung}
-
-
-%------------------------------------------------------
-% Kurzfassung
-%------------------------------------------------------
-
 \input{Text/Kurzfassung}
 
 
 %------------------------------------------------------
 % Inhaltsverzeichnis
 %------------------------------------------------------
-\tableofcontents
 \pagenumbering{arabic}
+\tableofcontents
 \newpage
 
 
@@ -110,33 +99,33 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \input{Text/Einleitung}
 \input{Text/Hauptteil_I}
 \input{Text/Hauptteil_II}
+\input{Text/Hauptteil_III}
 \input{Text/Resümee}
 \newpage
 
 
 %------------------------------------------------------
-% Römische Ziffern
+% Anhang & Literaturverzeichnis
 %------------------------------------------------------
 \pagenumbering{Roman}
-\setcounter{page}{4}
+\setcounter{page}{3}
 \newpage
-
 
 %------------------------------------------------------
 % Acronyme
 %------------------------------------------------------
 \addcontentsline{toc}{chapter}{\textbf{Abkürzungsverzeichnis}}
 \input{acronyme/Acronym}
-
+\newpage
 
 %------------------------------------------------------
 % Glossar
 %------------------------------------------------------
 \addtocontents{toc}{\vspace{\baselineskip}}
-\addcontentsline{toc}{chapter}{\textbf{Glossar}}
 \renewcommand{\glossarysection}[2][]{\chapter*{#1}}
+\addcontentsline{toc}{chapter}{\textbf{Glossar}}
 \printglossary[style=altlist,title=Glossar]
-
+\newpage
 
 %------------------------------------------------------
 % Literatur
