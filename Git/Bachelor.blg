@@ -2,4 +2,9 @@ This is BibTeX, Version 0.99dThe top-level auxiliary file: Bachelor.aux
 The style file: plain.bst
 I found no \citation commands---while reading file Bachelor.aux
 Database file #1: literatur.bib
-(There was 1 error message)
+You're missing a field name---line 17 of file literatur.bib
+ : 
+ : 09 title = {Glossar, \url{https://www.inloox.de/projektmanagement-glossar/}, Aufgerufen: 09.11.2017}}
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+(There were 2 error messages)
