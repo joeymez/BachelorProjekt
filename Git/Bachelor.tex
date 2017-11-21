@@ -21,6 +21,7 @@
 \usepackage{minitoc}
 \usepackage{scrpage2}
 
+
 %------------------------------------------------------
 % Glossaries
 %------------------------------------------------------
@@ -33,7 +34,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 % Seitenzahlformatierung (rechts)
 %------------------------------------------------------
-\pagestyle{scrheadings} 
+\pagestyle{plain} 
 \cfoot[]{}% [plain-Seiten]{normale Seiten} 
 \ofoot[\pagemark]{\pagemark} 
 
@@ -42,7 +43,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %--------------------------------------------------------------------------- 
 \titleformat{name=\chapter,numberless}[display]{\normalfont\huge\bfseries}{\titlerule}{-7ex}{}[\vspace{5ex}]
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{20pt}{\Huge}
-\titlespacing{\chapter}{0em}{-1.0em}{0em} % {left}{before}{after}[right]
+\titlespacing{\chapter}{0em}{2.5em}{0em} % {left}{before}{after}[right]
 \titleformat{\section}{\normalfont\LARGE\bfseries}{\thesection}{16pt}{\LARGE}
 \titleformat{\subsection}{\normalfont\Large\bfseries}{\thesubsection}{14pt}{\Large}
 \titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesubsubsection}{14pt}{\large}
@@ -55,7 +56,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 % Settings
 %------------------------------------------------------
-\geometry{a4paper, left=30mm, right=25mm}
+\geometry{a4paper, left=30mm, right=25mm, layoutheight=315mm}
 \input{glossar/Glossar}
 
 %------------------------------------------------------
@@ -85,11 +86,13 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \input{Text/Kurzfassung}
 
 
+
 %------------------------------------------------------
 % Inhaltsverzeichnis
 %------------------------------------------------------
 \pagenumbering{arabic}
 \tableofcontents
+\titlespacing{\chapter}{0em}{-1.5em}{0em} % {left}{before}{after}[right]
 \newpage
 
 
@@ -121,6 +124,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 % Glossar
 %------------------------------------------------------
+\titlespacing{\chapter}{0em}{2.5em}{0em} % {left}{before}{after}[right]
 \addtocontents{toc}{\vspace{\baselineskip}}
 \renewcommand{\glossarysection}[2][]{\chapter*{#1}}
 \addcontentsline{toc}{chapter}{\textbf{Glossar}}
