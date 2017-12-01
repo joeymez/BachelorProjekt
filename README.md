@@ -28,11 +28,12 @@ Klassisch besteht die **Gliederung der Bachelorarbeit** aus drei Hauptteilen, de
 **Voraussetzungen Windows**  
 > - MiKTeX (LaTeX Distribution), [download](https://miktex.org/download)  
 > - TeXstudio (LaTeX Editor), [download](https://www.texstudio.org/)
+> - ActivePerl (Glossaries Distribution), [download](https://www.activestate.com/activeperl/downloads)
 
 **Installation**
 > :one: MiKTeX for Windows installieren  
 > :two: TeXstudio installieren  
->
+> :three: ActivePerl installieren  
 ***
 
 ## LaTeX Informationen
