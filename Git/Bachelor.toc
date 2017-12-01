@@ -1,32 +1,39 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{3}{chapter.1}
 \contentsline {section}{\numberline {1.1}Motivation}{3}{section.1.1}
-\contentsline {section}{\numberline {1.2}Problemstellung}{3}{section.1.2}
-\contentsline {section}{\numberline {1.3}Thesis - Einf\"uhrung agiler Arbeitsweisen im Konzern}{3}{section.1.3}
-\contentsline {chapter}{\numberline {2}Teil I: IT-Projektmanagement in der Theorie}{4}{chapter.2}
+\contentsline {section}{\numberline {1.2}Thesis - Agile Transformation im Konzern}{3}{section.1.2}
+\contentsline {chapter}{\numberline {2}Themengebiet I: \\Projektmanagement in der Theorie}{4}{chapter.2}
 \contentsline {section}{\numberline {2.1}Projektmanagement (Konkretisierung)}{4}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Projektbegriff}{4}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}Aufgaben des Projektmanagements}{4}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Projektmanagementmethoden}{5}{subsection.2.1.3}
+\contentsline {subsection}{\numberline {2.1.3}Projektmanagementans\"atze}{4}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Projektmanagement in der Industrie}{5}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.1}Gegenw\"artige Situation}{5}{subsection.2.2.1}
 \contentsline {subsection}{\numberline {2.2.2}Problematik}{5}{subsection.2.2.2}
-\contentsline {subsection}{\numberline {2.2.3}L\"osungsansatz}{5}{subsection.2.2.3}
-\contentsline {chapter}{\numberline {3}Teil II: IT-Projektmanagement in der Praxis}{6}{chapter.3}
-\contentsline {section}{\numberline {3.1}MAN Truck \& Bus AG}{6}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}IT-Projektmanagement im Konzern}{6}{subsection.3.1.1}
-\contentsline {subsection}{\numberline {3.1.2}Agile IT-Projekte bei der MAN}{6}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Cross Digital Projects (GDT)}{6}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Konzept: Agiles Vorgehen}{7}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Vorgehensmodelle}{7}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Management Tools}{7}{subsection.3.2.3}
-\contentsline {chapter}{\numberline {4}Teil III: Expansion der Agilit"at im Konzern}{8}{chapter.4}
-\contentsline {section}{\numberline {4.1}Methode I: Kick-Off Workshops Agile}{8}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Unter"uberschrift}{8}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Unter"uberschrift}{8}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Methode II: Agiles Coaching}{8}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Unter- "Uberschrift}{9}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Unter- "Uberschrift}{9}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {2.2.3}L\"osungsansatz: Agile Welt}{5}{subsection.2.2.3}
+\contentsline {chapter}{\numberline {3}Themengebiet II: \\Agile Arbeitsweisen in der Praxis}{6}{chapter.3}
+\contentsline {section}{\numberline {3.1}Gegen"uberstellung von agilen zu klassischen Modellen}{6}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Kundenverf"ugbarkeit}{6}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Scope \& Feuatures}{6}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Feature Priorisierung}{7}{subsection.3.1.3}
+\contentsline {subsection}{\numberline {3.1.4}Teams \& F"uhrung}{7}{subsection.3.1.4}
+\contentsline {subsection}{\numberline {3.1.5}Finanzierung}{7}{subsection.3.1.5}
+\contentsline {section}{\numberline {3.2}Agile Crossfunktionale Projekte}{7}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Agile Ans"atze}{7}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Werkzeuge \& Features}{7}{subsection.3.2.2}
+\contentsline {chapter}{\numberline {4}Themengebiet III: \\Transformation agiler Arbeitsweisen}{8}{chapter.4}
+\contentsline {section}{\numberline {4.1}Agile Transformation Strategy}{8}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Impediments}{8}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Operative Ans"atze}{8}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Strategische Zielsetzung}{9}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Incubator $(Zukunftswerkstatt)$}{9}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Community}{9}{subsection.4.1.5}
+\contentsline {subsection}{\numberline {4.1.6}Coaching}{9}{subsection.4.1.6}
+\contentsline {section}{\numberline {4.2}Agile Methode: VUCA}{9}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Design Thinking}{9}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Business Model Innovation}{9}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Lean Startup}{9}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Agile Frameworks}{9}{subsection.4.2.4}
 \contentsline {chapter}{\numberline {5}Res"umee}{10}{chapter.5}
 \contentsline {section}{\numberline {5.1}Interpretation}{10}{section.5.1}
 \contentsline {section}{\numberline {5.2}M"ogliche Forschungsl"ucken (offene Fragen)}{10}{section.5.2}
