@@ -101,8 +101,8 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 \input{Text/Einleitung}
 \input{Text/Hauptteil_I}
-\input{Text/Hauptteil_II}
 \input{Text/Hauptteil_III}
+\input{Text/Hauptteil_II}
 \input{Text/Resümee}
 \newpage
 
@@ -131,12 +131,23 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 \printglossary[style=altlist,title=Glossar]
 \newpage
 
+
+%------------------------------------------------------
+% Abbildungsverzeichnis
+%------------------------------------------------------
+\addstarredchapter{\textbf{Abbildungsverzeichnis}}
+\listoffigures
+\newpage
+
+
 %------------------------------------------------------
 % Literatur
 %------------------------------------------------------
 \addcontentsline{toc}{chapter}{Literaturverzeichnis}
 \bibliography{literatur}{}
 \bibliographystyle{plain}
+\newpage
+
 
 %------------------------------------------------------
 % END OF DOCUMENT
