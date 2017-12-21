@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  19 DEC 2017 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.10.18)  21 DEC 2017 15:05
 entering extended mode
 **./Bachelor.tex
 (Bachelor.tex
@@ -1107,9 +1107,9 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 (Bachelor.mtc1
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
-)) (Text/Hauptteil_I.tex [3
+) [3
 
-]
+]) (Text/Hauptteil_I.tex [4]
 chapter 2.
 
 Overfull \hbox (7.58652pt too wide) in paragraph at lines 5--5
@@ -1123,36 +1123,36 @@ Overfull \hbox (7.58652pt too wide) in paragraph at lines 5--5
 (Bachelor.mtc2)
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 13.
- [4
+ [5
 
-]) (Text/Hauptteil_II.tex [5]
+]) (Text/Hauptteil_II.tex [6]
 chapter 3.
 \openout4 = `Bachelor.mtc'.
 
 \openout4 = `Bachelor.mtc'.
 
-(Bachelor.mtc3) [6
+(Bachelor.mtc3) [7
 
-]) (Text/Hauptteil_III.tex [7] [8]
+]) (Text/Hauptteil_III.tex [8] [9]
 chapter 4.
 \openout4 = `Bachelor.mtc'.
 
 \openout4 = `Bachelor.mtc'.
 
-(Bachelor.mtc4) [9
+(Bachelor.mtc4) [10
 
 ]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
- [10]) (Text/Resümee.tex [11]
+ [11]) (Text/Resümee.tex [12]
 chapter 5.
 \openout4 = `Bachelor.mtc'.
 
 \openout4 = `Bachelor.mtc'.
 
-(Bachelor.mtc5)) [12
+(Bachelor.mtc5)) [13
 
 ] (acronyme/Acronym.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--8
@@ -1221,10 +1221,10 @@ Package minitoc(hints) Warning: W0024
 
 (Bachelor.aux) ) 
 Here is how much of TeX's memory you used:
- 16412 strings out of 493323
- 271693 string characters out of 3139050
- 503209 words of memory out of 3000000
- 19339 multiletter control sequences out of 15000+200000
+ 16355 strings out of 493323
+ 270126 string characters out of 3139050
+ 502602 words of memory out of 3000000
+ 19282 multiletter control sequences out of 15000+200000
  70670 words of font info for 102 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,18n,66p,8821b,535s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1234,9 +1234,9 @@ ogram Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/MiKTeX 2.
 ype1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/
 utmb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8a.pfb>
-Output written on Bachelor.pdf (20 pages, 538495 bytes).
+Output written on Bachelor.pdf (21 pages, 542759 bytes).
 PDF statistics:
- 134 PDF objects out of 1000 (max. 8388607)
+ 137 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

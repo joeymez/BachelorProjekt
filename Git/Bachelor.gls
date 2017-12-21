@@ -3,18 +3,12 @@
 \glsgroupheading{B}\relax \glsresetentrylist %
 \glossentry{big_data}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
-\glsgroupheading{C}\relax \glsresetentrylist %
-\glossentry{cloud_computing}{\glossaryentrynumbers{\relax 
+\glsgroupheading{E}\relax \glsresetentrylist %
+\glossentry{embedded_systems}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
 \glsgroupheading{I}\relax \glsresetentrylist %
 \glossentry{industrie_4.0}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}%
 \glossentry{iot}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
-\glsgroupheading{M}\relax \glsresetentrylist %
-\glossentry{mobile_internet}{\glossaryentrynumbers{\relax 
-		\setentrycounter[]{page}\glsnumberformat{3}}}\glsgroupskip
-\glsgroupheading{S}\relax \glsresetentrylist %
-\glossentry{social_networking}{\glossaryentrynumbers{\relax 
 		\setentrycounter[]{page}\glsnumberformat{3}}}%
 \end{theglossary}\glossarypostamble
