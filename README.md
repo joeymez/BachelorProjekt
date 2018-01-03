@@ -30,12 +30,14 @@ Klassisch besteht die **Gliederung der Bachelorarbeit** aus drei Hauptteilen, de
 > - TeXstudio (LaTeX Editor), [download](https://www.texstudio.org/)
 > - ActivePerl (Glossaries Distribution), [download](https://www.activestate.com/activeperl/downloads)
 > - JAVA (JRE for GitHelper), [download](https://java.com/de/download/win10.jsp)
+> - Git (Git for GitHelper), [download](https://git-scm.com/downloads)
 
 **Installation**
 > :one: MiKTeX for Windows installieren  
 > :two: TeXstudio installieren  
 > :three: ActivePerl installieren  
 > :four: JAVA installieren  
+> :five: Git installieren 
 ***
 
 ## LaTeX Informationen
