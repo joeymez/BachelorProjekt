@@ -44,7 +44,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %--------------------------------------------------------------------------- 
 \titleformat{name=\chapter,numberless}[display]{\normalfont\huge\bfseries}{\titlerule}{-7ex}{}[\vspace{5ex}]
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{20pt}{\Huge}
-\titlespacing{\chapter}{0em}{2.5em}{0em} % {left}{before}{after}[right]
+\titlespacing{\chapter}{0em}{1em}{0em} % {left}{before}{after}[right]
 \titleformat{\section}{\normalfont\LARGE\bfseries}{\thesection}{16pt}{\LARGE}
 \titleformat{\subsection}{\normalfont\Large\bfseries}{\thesubsection}{14pt}{\Large}
 \titleformat{\subsubsection}{\normalfont\large\bfseries}{\thesubsubsection}{14pt}{\large}
@@ -93,13 +93,13 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 \pagenumbering{arabic}
 \tableofcontents
-\titlespacing{\chapter}{0em}{-1.5em}{0em} % {left}{before}{after}[right]
 \newpage
 
 
 %------------------------------------------------------
 % Dokument Anfang
 %------------------------------------------------------
+\titlespacing{\chapter}{0em}{-3em}{0em} % {left}{before}{after}[right]
 \input{Text/Einleitung}
 \input{Text/Hauptteil_I}
 \input{Text/Hauptteil_II}
@@ -125,7 +125,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 % Glossar
 %------------------------------------------------------
-\titlespacing{\chapter}{0em}{2.5em}{0em} % {left}{before}{after}[right]
+\titlespacing{\chapter}{0em}{1.5em}{0em} % {left}{before}{after}[right]
 \addtocontents{toc}{\vspace{\baselineskip}}
 \renewcommand{\glossarysection}[2][]{\chapter*{#1}}
 \addcontentsline{toc}{chapter}{\textbf{Glossar}}
@@ -136,6 +136,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 % Abbildungsverzeichnis
 %------------------------------------------------------
+\titlespacing{\chapter}{0em}{1.5em}{0em} % {left}{before}{after}[right]
 \addstarredchapter{\textbf{Abbildungsverzeichnis}}
 \listoffigures
 \newpage
@@ -144,6 +145,7 @@ section]      %im Inhaltsverzeichnis auf section-Ebene erscheinen
 %------------------------------------------------------
 % Literatur
 %------------------------------------------------------
+\titlespacing{\chapter}{0em}{1.5em}{0em} % {left}{before}{after}[right]
 \addcontentsline{toc}{chapter}{Literaturverzeichnis}
 \bibliography{literatur}{}
 \bibliographystyle{natbib}
