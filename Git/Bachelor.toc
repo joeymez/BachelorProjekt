@@ -1,50 +1,52 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{3}
 \contentsline {section}{\numberline {1.1}Motivation}{3}
-\contentsline {section}{\numberline {1.2}Thesis - Agile Transformation im Konzern}{4}
-\contentsline {chapter}{\numberline {2}Teil I: Projektmanagement in der Theorie}{5}
-\contentsline {section}{\numberline {2.1}Projektmanagement (Konkretisierung)}{5}
-\contentsline {subsection}{\numberline {2.1.1}Projektbegriff}{5}
-\contentsline {subsection}{\numberline {2.1.2}Aufgaben des Projektmanagements}{5}
-\contentsline {subsection}{\numberline {2.1.3}Projektmanagementans\"atze}{5}
-\contentsline {section}{\numberline {2.2}Projektmanagement in der Industrie}{6}
-\contentsline {subsection}{\numberline {2.2.1}Gegenw\"artige Situation}{6}
-\contentsline {subsection}{\numberline {2.2.2}Problematik}{6}
-\contentsline {subsection}{\numberline {2.2.3}L\"osungsansatz: Agile Welt}{6}
-\contentsline {chapter}{\numberline {3}Teil II: Agile Arbeitsweisen in der Praxis}{7}
-\contentsline {section}{\numberline {3.1}Gegen"uberstellung von agilen zu klassischen Modellen}{7}
-\contentsline {subsection}{\numberline {3.1.1}Kundenverf"ugbarkeit}{7}
-\contentsline {subsection}{\numberline {3.1.2}Scope \& Feuatures}{8}
-\contentsline {subsection}{\numberline {3.1.3}Feature Priorisierung}{8}
-\contentsline {subsection}{\numberline {3.1.4}Teams \& F"uhrung}{8}
-\contentsline {subsection}{\numberline {3.1.5}Finanzierung}{8}
-\contentsline {subsection}{\numberline {3.1.6}Qualit"atsmanagement}{8}
-\contentsline {section}{\numberline {3.2}Agile Frameworks}{8}
-\contentsline {subsection}{\numberline {3.2.1}Lean Startup}{8}
-\contentsline {subsection}{\numberline {3.2.2}Scrum}{8}
-\contentsline {subsection}{\numberline {3.2.3}Scranban}{8}
-\contentsline {section}{\numberline {3.3}Tools \& Plattformen}{8}
-\contentsline {subsection}{\numberline {3.3.1}Trello \& Jira}{9}
-\contentsline {subsection}{\numberline {3.3.2}Share Point \& Group Connect}{9}
-\contentsline {subsection}{\numberline {3.3.3}Slack \& MS Teams}{9}
-\contentsline {chapter}{\numberline {4}Teil III: Integration agiler Arbeitsweisen im Konzern}{10}
-\contentsline {section}{\numberline {4.1}Agile Transformation Strategy}{10}
-\contentsline {subsection}{\numberline {4.1.1}Vision}{10}
-\contentsline {subsection}{\numberline {4.1.2}Impediments}{11}
-\contentsline {subsection}{\numberline {4.1.3}Guideline zur agilen Transformation}{11}
-\contentsline {subsection}{\numberline {4.1.4}Synchronisation}{11}
-\contentsline {subsection}{\numberline {4.1.5}Training $(Coaching)$}{11}
-\contentsline {subsection}{\numberline {4.1.6}Agile Community}{11}
-\contentsline {section}{\numberline {4.2}Agile Welt: VUCA}{11}
-\contentsline {subsection}{\numberline {4.2.1}Design Thinking}{11}
-\contentsline {subsection}{\numberline {4.2.2}Business Model Generation}{11}
-\contentsline {subsection}{\numberline {4.2.3}Team Management}{11}
-\contentsline {section}{\numberline {4.3}Moderne Philosophie}{12}
-\contentsline {subsection}{\numberline {4.3.1}Agile Werte}{12}
-\contentsline {subsection}{\numberline {4.3.2}Agile Prinzipien}{12}
-\contentsline {chapter}{\numberline {5}Res"umee}{13}
-\contentsline {section}{\numberline {5.1}Interpretation}{13}
-\contentsline {section}{\numberline {5.2}M"ogliche Forschungsl"ucken (offene Fragen)}{13}
+\contentsline {section}{\numberline {1.2}Zukunftsf"ahig durch agile Transformation}{4}
+\contentsline {chapter}{\numberline {2}Teil I: Agile Arbeitsweisen in der Praxis}{5}
+\contentsline {section}{\numberline {2.1}Gegen"uberstellung von agilen zu klassischen Modellen}{5}
+\contentsline {subsection}{\numberline {2.1.1}Kundenverf"ugbarkeit}{5}
+\contentsline {subsection}{\numberline {2.1.2}Scope \& Feuatures}{5}
+\contentsline {subsection}{\numberline {2.1.3}Feature Priorisierung}{6}
+\contentsline {subsection}{\numberline {2.1.4}Teams \& F"uhrung}{6}
+\contentsline {subsection}{\numberline {2.1.5}Finanzierung}{6}
+\contentsline {subsection}{\numberline {2.1.6}Qualit"atsmanagement}{6}
+\contentsline {section}{\numberline {2.2}Agile Frameworks}{6}
+\contentsline {subsection}{\numberline {2.2.1}Lean Startup}{6}
+\contentsline {subsection}{\numberline {2.2.2}Scrum}{6}
+\contentsline {subsection}{\numberline {2.2.3}Scranban}{6}
+\contentsline {chapter}{\numberline {3}Teil II: Herausforderungen \& Chancen agiler Transformationen}{7}
+\contentsline {section}{\numberline {3.1}Organisationsstruktur}{7}
+\contentsline {subsection}{\numberline {3.1.1}Agiles Management}{7}
+\contentsline {subsection}{\numberline {3.1.2}Cross-Funktionale Kooperation}{8}
+\contentsline {subsection}{\numberline {3.1.3}Innovationswille}{8}
+\contentsline {section}{\numberline {3.2}Unternehmenskultur}{8}
+\contentsline {subsection}{\numberline {3.2.1}Transparenz \& Vertrauen}{8}
+\contentsline {subsection}{\numberline {3.2.2}Pionierkultur}{8}
+\contentsline {subsection}{\numberline {3.2.3}Zusammenhalt \& Kommunikation}{8}
+\contentsline {section}{\numberline {3.3}Mitarbeiterdimension}{8}
+\contentsline {subsection}{\numberline {3.3.1}Aktivierung \& Motivation}{8}
+\contentsline {subsection}{\numberline {3.3.2}Zusammenhalt \& Kommunikation}{8}
+\contentsline {subsection}{\numberline {3.3.3}Teambuilding}{8}
+\contentsline {section}{\numberline {3.4}Digitales Umfeld}{8}
+\contentsline {subsection}{\numberline {3.4.1}Digitale Infrastruktur}{8}
+\contentsline {subsection}{\numberline {3.4.2}Nutzung exponentieller Technologien}{8}
+\contentsline {chapter}{\numberline {4}Teil III: Integration agiler Arbeitsweisen im Konzern}{9}
+\contentsline {section}{\numberline {4.1}Agile Transformation Strategy}{9}
+\contentsline {subsection}{\numberline {4.1.1}Impediments}{9}
+\contentsline {subsection}{\numberline {4.1.2}Guideline zur agilen Transformation}{9}
+\contentsline {subsection}{\numberline {4.1.3}Synchronisation}{10}
+\contentsline {subsection}{\numberline {4.1.4}Training $(Coaching)$}{10}
+\contentsline {subsection}{\numberline {4.1.5}Agile Community}{10}
+\contentsline {section}{\numberline {4.2}Agile Welt: VUCA}{10}
+\contentsline {subsection}{\numberline {4.2.1}Design Thinking}{10}
+\contentsline {subsection}{\numberline {4.2.2}Business Model Generation}{10}
+\contentsline {subsection}{\numberline {4.2.3}Team Management}{10}
+\contentsline {section}{\numberline {4.3}Moderne Philosophie}{10}
+\contentsline {subsection}{\numberline {4.3.1}Agile Werte}{10}
+\contentsline {subsection}{\numberline {4.3.2}Agile Prinzipien}{11}
+\contentsline {chapter}{\numberline {5}Res"umee}{12}
+\contentsline {section}{\numberline {5.1}Interpretation}{12}
+\contentsline {section}{\numberline {5.2}M"ogliche Forschungsl"ucken (offene Fragen)}{12}
 \contentsline {chapter}{\textbf {Abk\"urzungsverzeichnis}}{III}
 \vspace {\baselineskip }
 \contentsline {chapter}{\textbf {Glossar}}{IV}
